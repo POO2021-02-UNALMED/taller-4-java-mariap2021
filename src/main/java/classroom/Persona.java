@@ -42,6 +42,10 @@ public class Persona {
         return nombre;
     }
 
+    Persona(){
+        this(0);
+    }
+
     void setNombre(String nombre) {
         this.nombre = nombre;
     }
